@@ -3,7 +3,6 @@ function sort(array) {
   array.forEach(function(num) {
     newArray.push(num);
     newArray = sortArray(newArray) || [num];
-    console.log(newArray)
   });
    return newArray;
 }
